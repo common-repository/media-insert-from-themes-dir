@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Insert from Themes Dir\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-07-17 11:25+0900\n"
+"Language-Team: gqevu6bsiz <gqevu6bsiz@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Last-Translator: Gqevu6bsiz <gqevu6bsiz@gmail.com>\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+msgid "This plugin allows you to insert a picture of the theme directory. After activated, available immediately from the \"Media Insert\"."
+msgstr "このプラグインはテーマディレクトリ内の画像を挿入する為のプラグインです。有効化後、すぐに「メディアを追加」から利用できます。"
+
+msgid "Insert from Themes Directory"
+msgstr "テーマディレクトリから挿入"
+
+msgid "Not possible to read the theme directory."
+msgstr "テーマディレクトリを読み取る事ができません。"
+
+msgid "Files and directories can not be found."
+msgstr "ファイルやディレクトリが見つかりませんでした。"
+

@@ -1,0 +1,268 @@
+/* layout */
+
+.media-frame-content .theme-dir {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.media-frame-content .theme-dir .theme-dir-title {
+	margin: 0 16px;
+}
+.theme-dir .spinner {
+	display: block;
+	float: none;
+}
+.theme-dir .theme-dir-all-files {
+	margin: 0 16px;
+	display: block;
+	overflow: auto;
+	right: 300px;
+	top: 50px;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+.media-frame-toolbar .media-toolbar .media-toolbar-secondary .theme-dir-plugin-about {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 350px;
+	height: 60px;
+	padding: 10px 0 0 16px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.media-frame-toolbar .media-toolbar .media-toolbar-secondary .theme-dir-plugin-about .donate_nag {
+	display: block;
+	margin: 0 0 4px 0;
+	padding: 0;
+	font-size: 12px;
+}
+.media-frame-toolbar .media-toolbar .media-toolbar-secondary .theme-dir-plugin-about .developer {
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 16px;
+	color: #777;
+}
+.media-frame-toolbar .media-toolbar .media-toolbar-secondary .theme-dir-plugin-about .developer img {
+	display: inline-block;
+	height: 16px;
+	vertical-align: middle;
+}
+.media-frame-toolbar .media-toolbar .media-toolbar-secondary .theme-dir-plugin-about .developer span {
+	display: inline-block;
+	height: 16px;
+	vertical-align: middle;
+}
+
+
+
+/* list style */
+
+
+.theme-dir .theme-dir-all-files ul.theme-dir-file {
+	margin-left: 16px;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.errorText {
+	color: #999;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.theme-dir-file {
+	margin: 8px;
+	position: relative;
+	padding: 0;
+	list-style: none;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file {
+	float: left;
+	text-align: center;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-dir {
+	clear: both;
+}
+
+
+
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file {
+	position: relative;
+	box-shadow: inset 0 0 15px rgba( 0, 0, 0, 0.1 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.05 );
+	background: #eee;
+	cursor: pointer;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .thumbnail {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 100%;
+	max-height: 100%;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .thumbnail .centerd {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: translate( 50%, 50% );
+	-moz-transform: translate( 50%, 50% );
+	-ms-transform: translate( 50%, 50% );
+	-o-transform: translate( 50%, 50% );
+	transform: translate( 50%, 50% );
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .thumbnail img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate( -50%, -50% );
+	-moz-transform: translate( -50%, -50% );
+	-ms-transform: translate(- 50%, -50% );
+	-o-transform: translate( -50%, -50% );
+	transform: translate( -50%,- 50% );
+}
+
+
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-dir .icon {
+	background: url(./images/dir.png) no-repeat;
+	float: left;
+	height: 32px;
+	width: 24px;
+	margin: 7px 8px 0 0;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-dir .dir-name {
+	font-size: 14px;
+	line-height: 32px;
+	padding: 6px 0 0 0;
+}
+
+
+
+/* size */
+
+
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file,
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .theme-dir-file-preview,
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .thumbnail
+{ width: 160px; }
+
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file,
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .thumbnail
+{ height: 160px; }
+
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .thumbnail img
+{ max-height: 160px; }
+
+
+
+
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .check {
+	display: none;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px rgba( 0, 0, 0, 0.4 );
+	background: #f1f1f1;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#e1e1e1));
+	background-image: -webkit-linear-gradient(top, #f1f1f1, #e1e1e1);
+	background-image:    -moz-linear-gradient(top, #f1f1f1, #e1e1e1);
+	background-image:      -o-linear-gradient(top, #f1f1f1, #e1e1e1);
+	background-image:   linear-gradient(to bottom, #f1f1f1, #e1e1e1);
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .check div {
+	background-position: -1px 0;
+	height: 15px;
+	width: 15px;
+	margin: 5px;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file .check:hover div {
+	background-position: -40px 0;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file.details {
+	box-shadow: 0 0 0 1px #fff, 0 0 0 5px #1e8cbe;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file.details .check {
+	display: block;
+	box-shadow: 0 0 0 1px #1e8cbe;
+	background: #1e8cbe;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1e8cbe), to(#0074a2));
+	background-image: -webkit-linear-gradient(top, #1e8cbe, #0074a2);
+	background-image:    -moz-linear-gradient(top, #1e8cbe, #0074a2);
+	background-image:      -o-linear-gradient(top, #1e8cbe, #0074a2);
+	background-image:   linear-gradient(to bottom, #1e8cbe, #0074a2);
+}
+
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file.details .check div {
+	background-position: -21px 0;
+}
+
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-file.details .check:hover div {
+	background-position: -60px 0;
+}
+.theme-dir .theme-dir-all-files ul.theme-dir-files li.type-dir .theme-dir-file-preview.selected .icon {
+	background-position: -38px 0px;
+}
+
+
+
+
+/* sidebar */
+
+
+.theme-dir .media-sidebar .theme-dir-file-details {
+	position: relative;
+	overflow: auto;
+}
+.theme-dir .media-sidebar .theme-dir-file-details .theme-dir-file-info {
+	overflow: hidden;
+	min-height: 60px;
+	margin-bottom: 16px;
+	line-height: 18px;
+	color: #999;
+	border-bottom: 1px solid #e5e5e5;
+	box-shadow: 0 1px 0 #fff;
+	padding-bottom: 11px;
+}
+.theme-dir .media-sidebar .theme-dir-file-details .theme-dir-file-info .thumbnail {
+	position: relative;
+	margin: 5px 0;
+	background: #eee;
+}
+.theme-dir .media-sidebar .theme-dir-file-details .theme-dir-file-info .thumbnail:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: inset 0 0 0 1px rgba( 0, 0, 0, 0.15 );
+	overflow: hidden;
+}
+.theme-dir .media-sidebar .theme-dir-file-details .theme-dir-file-info .thumbnail img {
+	display: block;
+	margin: 0 auto;
+}
+
+.theme-dir .media-sidebar .theme-dir-file-details .theme-dir-file-info .detalis .filename {
+	color: #464646;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+
+/* size */
+.theme-dir .media-sidebar .theme-dir-file-details .theme-dir-file-info .thumbnai,
+.theme-dir .media-sidebar .theme-dir-file-details .theme-dir-file-info .thumbnail img
+{
+	max-width: 260px;
+	max-height: 260px;
+}

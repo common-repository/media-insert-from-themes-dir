@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Insert from Themes Dir\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-06-22 16:05+0900\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Last-Translator: Gqevu6bsiz <gqevu6bsiz@gmail.com>\n"
+
+msgid "Thank you for considering donate."
+msgstr "宜しければ寄付のご検討を宜しくお願いします。"
+
